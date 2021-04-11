@@ -1,7 +1,7 @@
-package com.midm.main.exe01;
+package com.midm.main.exe02;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface TodoListItemRepository extends JpaRepository<TodoListItem, Integer> {}
+public interface BookRepository extends JpaRepository<Book, Integer> {}
